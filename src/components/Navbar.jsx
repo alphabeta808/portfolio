@@ -28,7 +28,7 @@ export default function Navbar() {
             </Link>
           </div>
         </div>
-        <nav className={sidebar ? "nav-menu active" : "nav-menu"} >
+        <nav className={sidebar ? "nav-menu active z-10" : "nav-menu"} >
           <ul className="nav-menu-items" onClick={showSidebar}>
             <li className="navbar-toggle">
               <Link to="#" className="ml-[2rem] text-[2rem] bg-none">

@@ -1,27 +1,51 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Computer from '../images/computer.jpg';
+
 
 const Projects = () => {
   return (
     <div className='bg-[#474745] h-screen w-screen tracking-widest p-20 text-[#ebebdd] font-medium'>
       <div className='flex flex-row'>
-        <div className="grid-cols-6">
-          <div className="1 border-red-500">1</div>
-          <div className="2 border-red-500">2</div>
-          <div className="3 border-red-500">3</div>
-          <div className="4 border-red-500">4</div>
-          <div className="5 border-red-500">5</div>
-          <div className="6 border-red-500">6</div>
-          <div className="7 border-red-500">7</div>
-          <div className="8 border-red-500">8</div>
-          <div className="9 border-red-500">9</div>
-          <div className="10 border-red-500">10</div>
-          <div className="11 border-red-500">11</div>
-          <div className="12 border-red-500">12</div>
+        <div className="grid grid-cols-5 gap-5">
+          <div className="flex flex-row border-red-500">
+            <Link to='#'>
+              <img src={Computer} alt='Computer'></img>
+              <h2 className='mt-2 font-medium'>Mini ERP: Casier App</h2>
+            </Link>
+          </div>
+          <div className=" border-red-500">
+            <Link to='#'><img src={Computer} alt='Computer'></img></Link>
+          </div>
+          <div className=" border-red-500">
+            <Link to='#'><img src={Computer} alt='Computer'></img></Link>
+          </div>
+          <div className=" border-red-500">
+            <Link to='#'><img src={Computer} alt='Computer'></img></Link>
+          </div>
+          <div className=" border-red-500">
+            <Link to='#'><img src={Computer} alt='Computer'></img></Link>
+          </div>
+          <div className=" border-red-500">
+            <Link to='#'><img src={Computer} alt='Computer'></img></Link>
+          </div>
+          <div className=" border-red-500">
+            <Link to='#'><img src={Computer} alt='Computer'></img></Link>
+          </div>
+          <div className=" border-red-500">
+            <Link to='#'><img src={Computer} alt='Computer'></img></Link>
+          </div>
+          <div className=" border-red-500">
+            <Link to='#'><img src={Computer} alt='Computer'></img></Link>
+          </div>
+          <div className=" border-red-500">
+            <Link to='#'><img src={Computer} alt='Computer'></img></Link>
+          </div>
         </div>
-        <div className='button flex'>
-          <div className="left"></div>
-          <div className="right"></div>
-        </div>
+        {/* <div className='button flex'>
+          <div className="left">Left</div>
+          <div className="right">Right</div>
+        </div> */}
       </div>
     </div>
   )

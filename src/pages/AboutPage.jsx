@@ -14,7 +14,7 @@ const AboutPage = () => {
         </div>
         <div className='border-slate-900 shadow-md shadow-gold p-2 rounded-md w-[70%]'>
           <p>
-            Hai, nama saya Alfan maulana, saya adalah seorang Web Developer dan It Enthusias. Saat ini saya memahami beberapa bahasa pemrograman beserta sebagian teknologinya seperti Javascript(ReactJS, NodeJS, ExpressJS), Golang, Python, MaterialUI, TailwindCSS, Bootstrap, GIT dan Github.
+            Hai, nama saya Alfan maulana, saya adalah seorang Web Developer dan It Enthusias. Saat ini saya memahami beberapa bahasa pemrograman beserta sebagian teknologi pendukung lainnya seperti Javascript(ReactJS, NodeJS, ExpressJS), Golang, Python, MySQL, Postgresql MaterialUI, TailwindCSS, Bootstrap, GIT dan Github.
           </p>
           <br></br>
           <p>

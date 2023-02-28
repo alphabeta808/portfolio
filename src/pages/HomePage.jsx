@@ -1,5 +1,6 @@
 import mySvg from '../images/man.svg';
 import myImg from '../images/huge.png';
+import { Link } from 'react-router-dom';
 import '../index.css';
 
 
@@ -34,7 +35,9 @@ const HomePage = () => {
               </div>
               <div className="flex justify-center mt-5">
                 <button class="bg-[#4a4a4a] hover:bg-yellow-900 border py-1 px-3 rounded-3xl font-bold text-lg">
-                  See More
+                  <Link to='/myprojects'>
+                    See More
+                  </Link>
                 </button>
               </div>
             </div>
